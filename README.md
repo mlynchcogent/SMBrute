@@ -3,10 +3,19 @@ SMBrute is a program that can be used to bruteforce username and passwords of se
 
 ![screen](https://raw.githubusercontent.com/m4ll0k/SMBrute/master/screen.png)
 
-# Usage:
+## Install SMBrute
 
 ```
-$ python smbrute.py -h 188.10.73.147
+$ git clone https://github.com/m4ll0k/SMBrute.git smbrute
+$ cd smbrute
+$ pip3 install pysmb, humanfriendly
+$ python3 smbrute.py
+```
+
+## Usage:
+
+```
+$ python3 smbrute.py -h 188.10.73.147
 ```
 ```
  _____ _____ _____         _       
@@ -40,7 +49,7 @@ SMBrute - SMB Protocol Bruteforce
 __Show Files:__
 
 ```
-$ python smbrute.py -h 188.10.73.147 -f FTP
+$ python3 smbrute.py -h 188.10.73.147 -f FTP
 ```
 
 ```
@@ -70,7 +79,7 @@ SMBrute - SMB Protocol Bruteforce
 ```
 __Bruteforce Login:__
 ```
-$ python smbrute.py -h 2.35.69.44
+$ python3 smbrute.py -h 2.35.69.44
 ```
 ```
  _____ _____ _____         _       
@@ -88,7 +97,7 @@ SMBrute - SMB Protocol Bruteforce
 
 ```
 ```
-$ python smbrute.py -h 2.35.69.44 -U user.txt -P pass.txt -t 10
+$ python3 smbrute.py -h 2.35.69.44 -U user.txt -P pass.txt -t 10
 ```
 
 ```
@@ -108,7 +117,7 @@ SMBrute - SMB Protocol Bruteforce
 ```
 __After found credentials:__
 ```
-$ python smbrute.py -h 2.35.69.44 -u admin -p 1234
+$ python3 smbrute.py -h 2.35.69.44 -u admin -p 1234
 ```
 ```
  _____ _____ _____         _       
