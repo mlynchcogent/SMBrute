@@ -106,7 +106,7 @@ SMBrute - SMB Protocol Bruteforce
 [+] Start bruteforcing...
 [+] Username: root Password: toor
 ```
-__Before found credentials:__
+__After found credentials:__
 ```
 $ python smbrute.py -h 2.35.69.44 -u admin -p 1234
 ```
